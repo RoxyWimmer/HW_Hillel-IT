@@ -1,3 +1,6 @@
 Bug Factory
 second line
 hello World!
+Bug Factory
+third line
+hello everybody!
