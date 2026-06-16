@@ -1,21 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+ <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gallery</title>
+    <title>My Gallery</title>
+ <style> 
+    body    
+    { 
+        background-color: rgb(193, 226, 237); 
+    margin: 0; padding: 20px; 
+    font-family: Arial;
+    }
+
+    .container 
+    { max-width: 800px; 
+    margin: 40px auto; 
+    background: white; 
+    padding: 30px; 
+    border-radius: 15px; 
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1); 
+    text-align: center; 
+     } 
+    h1 
+    { color: rgb(16, 16, 150); font-size: 28px; }
+ 
+    .button {
+    display: inline-block;
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.button:hover {
+    background-color: darkblue;
+}
+.gallery img {
+    border: 5px solid white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+}
+        
+</style>
+
 </head>
 <body>
+    <div class="container">
 
-<h1>Gallery</h1>
+<h1>My Gallery</h1>
+    </div>
+
+<div class="gallery">
 
 <img src="../photo/20211216_210645.jpg" alt="Photo 1" width="250">
 
 <img src="../photo/20220824_195749.jpg" alt="Photo 2" width="250">
+</div>
 
 <br><br>
 
-<a href="../index.html">Back to Home</a>
+<a href="../index.html" class="button">Back to Home</a>
+
+</div>
 
 </body>
 </html>
