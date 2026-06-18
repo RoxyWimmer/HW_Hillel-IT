@@ -1,0 +1,43 @@
+
+    body {
+        background-color: rgb(193, 226, 237);
+        margin: 0;
+        padding: 20px;
+        font-family: Arial;
+    }
+
+    .container {
+        max-width: 800px;
+        margin: 40px auto;
+        background: white;
+        padding: 30px;
+        border-radius: 15px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        text-align: center;
+    }
+
+    h1 {
+        color: rgb(16, 16, 150);
+        font-size: 28px;
+    }
+
+    p {
+        color: rgb(16, 16, 150);
+        text-align: left;
+        display: inline-block;
+    }
+
+    .button {
+        display: inline-block;
+        background-color: blue;
+        color: white;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 8px;
+        margin-top: 10px;
+    }
+
+    .button:hover {
+        background-color: darkblue;
+    }
+    
